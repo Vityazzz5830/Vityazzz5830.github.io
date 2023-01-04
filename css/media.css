@@ -1,0 +1,622 @@
+/* Планшеты Tablets 1730px-993px */
+@media screen and (max-width: 5000px) {
+	.block_none_md_sm{
+		display: none;
+		
+	}
+
+	.nav_item a {
+  	padding: 13px 4px 9px 12px !important;
+    
+}
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1230px) { 
+   .call_tab p {
+  		font-size: 0.9rem;
+  	}
+
+  	.nav_item a {
+    	padding: 13px 7px 9px 12px;
+    }
+
+    .hamb{
+    	display: none !important;
+    }
+}
+	
+@media screen and (max-width: 1200px) {
+	/* ГЛАВНАЯ СТРАНИЦА */
+	.hamb {
+    	display: flex;
+    	align-items: center;
+  	}
+	
+  	.hamb__field {
+    cursor: pointer;
+  	}
+
+  	.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: #fff;
+    transition: 0.2s;
+  }
+
+  	.popup {
+    position: fixed;
+    top: 75px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #23aae2;
+    z-index: 100;
+    display: flex;
+    transition: 0.3s;
+  }
+
+  	 .popup.open {
+    left: 0;
+  }
+
+  	.popup .menu_items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 50px 0;
+    overflow: auto;
+  }	
+
+  	.popup .menu_items > li {
+    width: 100%;
+  }
+  .popup .menu_items > li > a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3f3f3f;
+    text-align: center;
+  }
+  .popup .menu_items > li > a:hover {
+    background-color: rgba(122, 82, 179, 0.1);
+  }
+
+  .hamb__field.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamb__field.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamb__field.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  body.noscroll {
+    overflow: hidden;
+  }
+
+	.realtyandtransport_h2 {
+  		font-size: 2rem;
+	}
+
+
+	.slider_direction {
+  		width: 100%;
+  		text-align: left;
+  		margin-top: 15px;
+  	}
+
+  	.slick-dots {
+		left: 3%;
+	}
+
+	.adventages_item:nth-child(1){
+		width: 
+		margin-right: 20px;
+	}
+
+	.adventages_item:nth-child(2){
+		margin-right: 0px;
+		
+	}
+
+	.adventages_item:nth-child(3){
+		display: none;
+		
+	}
+
+	.adventages_menu {
+  		margin-bottom: 20px;
+	}
+
+	.block_none_md_sm{
+		display: block;
+		
+	}
+
+
+	/* СТРАНИЦА НЕДВИЖИМОСТЬ И ПЕРЕЕЗД */
+
+	.contacts-consultation{
+		background: #ffffff;
+	}
+	.section_container{
+	background: #ffffff;
+	margin-top: 0px;
+	box-shadow: none;
+	margin-bottom: 85px;
+	}
+
+
+	/* СТРАНИЦА ЭБОУТ */
+
+	
+
+	
+	
+	
+
+	.about-header-one{
+		margin-right: 0px;
+		padding-left: 0px;
+	}
+
+	.about-header-two{
+		margin-right: 0px;
+	}
+}
+	
+  		
+
+
+
+/* Мобильные Mobile 992px-768px */
+@media screen and (max-width: 992px) {
+
+	.header_h1 {
+	  letter-spacing: 40px;
+	  font-size: 4rem;
+	}
+
+	.header_h2 {
+	  font-size: 3rem;
+	}
+
+
+.block_none_md_sm{
+		display: block;
+		margin-bottom: 100px;
+	}
+	.call_tab{
+		margin-top: 20px;
+		display: flex;
+		flex-direction: row;
+		align-items: end;
+	}
+
+	.call_tab img{
+		vertical-align: middle;
+		padding-bottom: 5px;
+		padding-right: 10px;
+	}
+	
+	.slider .slick-arrow.slick-prev{
+		   left: 2%;
+	}
+
+	.slider .slick-arrow.slick-next{
+		right: 3%;    
+	}
+
+	.slick-dots {
+		width: 100% !important;
+	}
+
+
+
+
+	.call_tab_footer_fix {
+		justify-content: end;
+	}
+
+	/* СТРАНИЦА НЕДВИЖИМОСТЬ И ПЕРЕЕЗД */
+
+	.house-realty {
+  		margin-left: 0px;
+	}
+
+	.package-realty-title {
+  		margin-left: 0px;
+  		
+	}
+
+	.house-realty-title{
+		
+		padding-left: 40px;
+	}
+
+	.house-realty{
+		
+	}
+
+	.package-realty-container{
+		margin-right: 0px;
+		margin-left: 40px;
+	}
+
+	.house-realty-title-container{
+		margin-right: 30px;
+	}
+
+
+	.about-header-one{
+		margin-right: 0px;
+		padding-left: 0px;
+	}
+
+	.about-header-two{
+		margin-right: 0px;
+	}
+
+}
+
+@media screen and (max-width: 915px) {
+	.footer_fix p {
+	  font-size: 0.8rem;
+	}
+}
+
+/* Мобильные Mobile 568px-767px */
+@media screen and (max-width: 768px) {
+	
+.header_h1 {
+  letter-spacing: 25px;
+}
+
+.header_h2 {
+  font-size: 3rem;
+}
+	
+.header_advantages {
+  line-height: 1.3;
+}
+
+.removal h2{
+	padding-top: 60px;
+	
+}
+
+.travel {
+  	background-size: cover;
+  	margin-top: 30px;
+}
+
+.consultation{
+	background-size: cover;
+  	margin-top: 30px;
+}
+
+.slider_item a {
+  	margin-top: 15px;
+}
+
+.politics {
+  font-size: 0.8rem;
+}
+
+
+	
+.call_tab_footer_fix{
+	display: none;
+}
+
+/* СТРАНИЦА НЕДВИЖИМОСТЬ И ПЕРЕЕЗД */
+
+.realty-header_h1 {
+  		font-size: 2.467rem;
+  		
+}
+
+.down-part{
+	display: flex;
+	flex-flow: wrap;
+}
+
+.downp2{
+	order: 1;
+}
+
+.downp1{
+	order: 2;
+}
+
+
+.house-realty-title{
+	text-align: center;
+	padding: 0px;
+	padding-top: 30px;
+
+}
+
+.house-realty{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.package-realty{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.package-realty-container {
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.package-realty-title{
+	text-align: center;
+	margin-top: 0px;
+}
+
+.house-realty-title-container{
+	margin-right: 0px;
+}
+
+.section_container {
+  margin-bottom: 50px;
+}
+
+/* СТРАНИЦА КОНТАКТЫ */
+
+.contacts-title{
+	margin-bottom: 0px;
+	
+}
+
+.contacts-item-title{
+	padding: 0px;
+}
+
+.contacts-item-title p{
+	margin-bottom: 0px;
+}
+
+.contacts-list{
+	margin-top: 55px !important;
+}
+
+.contacts-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+	margin-bottom: 0px;
+}
+
+.contacts-item:nth-child(1){
+	margin-top: 0px;
+}
+
+
+
+.contacts-item img{
+	position: static;
+}
+
+
+.contacts-item h2{
+	margin-top: 30px !important;
+	text-align: center;
+}
+
+/* СТРАНИЦА ЭБОУТ */
+
+.partners_cards{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0px;
+}
+
+.adventages_item{
+	margin: 0;
+}
+
+.adventages_item p {
+ 	padding-bottom: 45px;
+  	margin-bottom: 30px;
+}
+
+.about-header-one{
+	margin-right: 0px;
+	padding-left: 0px;
+}
+
+.about-header-two{
+	margin-right: 0px;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 580px) {
+	.footer-politics {
+  		display: none;
+	}
+}
+/* Мобильные Mobile 480px-567px */
+@media screen and (max-width: 567px) {
+
+.header_advantages{
+	margin-top: 50px;
+}
+
+.footer-politics{
+	display: none;
+}
+
+.header_h1 {
+  letter-spacing: 15px;
+}
+	
+.dream img:nth-child(1) {
+  position: absolute;
+  left: 16%;
+  top: -26%;
+  z-index: -1;
+}
+
+.dream img:nth-child(2) {
+  position: absolute;
+  left: 32%;
+  top: -43%;
+  z-index: 4;
+}
+
+.dream img:nth-child(3) {
+  position: absolute;
+  left: 54%;
+  top: -24%;
+  z-index: -1;
+}
+
+.block_none_md_sm{
+		display: none;
+		
+	}
+	
+
+.adventages_menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.adventages_item:nth-child(1){
+		margin-right: 0px;
+		
+	}
+
+.adventages_item:nth-child(3){
+		display: block;
+		
+	}
+
+.adventages_item{
+		margin-bottom: 20px !important;
+		
+	}
+
+.slider_item img{
+  position: static;
+  margin-bottom: 20px;
+}
+
+.slider_info {
+  padding: 40px 40px 47px 40px;
+  
+}
+
+.slider_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider_container h3{
+	margin-right: 0px;
+}
+
+.slider_direction {
+  text-align: center;
+  
+}
+
+}
+/* Мобильные Mobile 320px-479px */
+@media screen and (max-width: 480px) {
+
+.header_h1 {
+  letter-spacing: 15px;
+  font-size: 2rem;
+}
+
+.header_h2 {
+  font-size: 1.5rem;
+}
+
+.header_advantages {
+  font-size: 1.4rem;
+  margin-top: 50px;
+}
+
+.adventages_menu{
+	margin-top: 50px;
+}
+
+.dream img:nth-child(1) {
+  position: absolute;
+  left: 2%;
+  top: -15%;
+  z-index: -1;
+}
+
+.dream img:nth-child(2) {
+  position: absolute;
+  left: 22%;
+  top: -28%;
+  z-index: 4;
+}
+
+.dream img:nth-child(3) {
+  position: absolute;
+  left: 60%;
+  top: -16%;
+  z-index: -1;
+}
+
+.realtyandtransport_h2 {
+  font-size: 1.5rem;
+}
+
+.dreamx2 img {
+  position: absolute;
+  left: 42%;
+  top: -13%;
+  z-index: 4;
+}
+
+.consultation_h2 {
+  font-size: 2.5rem;
+}
+
+/* СТРАНИЦА НЕДВИЖИМОСТЬ И ПЕРЕЕЗД */
+
+.realty-header_h1 {
+  		font-size: 1.2rem;
+  		
+}
+
+.house-realty{
+	width: 90%;
+}
+
+.package-realty{
+	width: 90%;
+}
+
+}
