@@ -1,0 +1,774 @@
+/* Планшеты Tablets 1730px-993px */
+@media screen and (max-width: 1899px) {
+	/* ГЛАВНАЯ СТРАНИЦА */
+	.slide_main{
+		display: flex !important;
+		flex-direction: row !important;
+		justify-content: center !important;
+		column-gap: 30px;
+	}
+
+	.slide_main_row{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.slick-slide{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+
+
+
+
+	.info__cards{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.map__container{
+		margin-top: 0px;
+		max-height: 514px !important;
+	}
+
+	.map{
+		margin-top: 0px;
+		height: 510px;
+	}
+
+	
+
+	.sliderandmap {
+  		max-width: 100%;
+  		display: flex;
+  		flex-direction: row;
+  		justify-content: center;
+		column-gap: 30px;
+	}
+
+	.cont{
+		margin-top: 30px;
+	}
+}
+	
+
+@media screen and (max-width: 1810px) {
+
+	.summary__menu-items{
+		display: flex;
+		align-items: start;
+	}
+
+	.summary__item{
+		max-width: 215px;
+		width: 100%;
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.summary__item-header{
+		font-size: 0.8rem;
+	}
+
+	.summary__item-count{
+		font-size: 1.3rem;
+	}
+
+	.summary__item img{
+		margin-left: 0px !important;
+	}
+}
+
+
+
+	
+@media screen and (max-width: 1650px) {
+	/* ГЛАВНАЯ СТРАНИЦА */
+	.slide_main{
+		display: flex !important;
+		flex-direction: row !important;
+		justify-content: center !important;
+		column-gap: 30px;
+	}
+
+	.slide_main_row{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.slick-slide{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	
+	.summary__menu-items{
+		display: flex;
+		align-items: start;
+	}
+
+	.summary__item{
+		max-width: 215px;
+		width: 100%;
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.summary__item-header{
+		font-size: 0.8rem;
+	}
+
+	.summary__item-count{
+		font-size: 1.3rem;
+	}
+
+	.summary__item img{
+		margin-left: 0px !important;
+	}
+
+	
+	.projectdb__buttons{
+		display: flex;
+		justify-content: space-between;
+		column-gap: 25px;
+	}
+
+	/* СТРАНИЦА ПРОЕКТА*/
+
+	.info__cards{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.map__container{
+		margin-top: 0px;
+		max-height: 514px !important;
+	}
+
+	.map{
+		margin-top: 0px;
+		height: 510px;
+	}
+
+	
+
+	.sliderandmap {
+  		max-width: 100%;
+  		display: flex;
+  		flex-direction: row;
+  		justify-content: center;
+		column-gap: 30px;
+	}
+
+	
+}
+	
+
+@media screen and (max-width: 1450px) {
+	.summary__menu-items{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		align-items: center;
+		column-gap: 30px;
+		justify-content: space-around;
+	}
+
+	.projectdb__summary-menu{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	/* СТРАНИЦА ПРОЕКТА*/
+
+	.return_arr {
+		margin-top: 20px;
+	}
+
+	.project_h2 {
+  		font-size: 1.75rem;
+	}
+
+	.action__item button {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.action__item p {
+  		font-size: 1.05rem;
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	.slide_main{
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		column-gap: 30px;
+		align-items: center;
+	}
+
+	.slide_main_row{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.slick-slide{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.sliderandmap {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.slider_part {
+  		margin-bottom: 30px;
+	}
+
+	.cont{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.note_container {
+  		margin-bottom: 30px;
+	}
+
+	.info__cards-hronologyandquestion__info{
+		display: flex;
+		flex-direction: column;
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.map__container {
+  		width: 100%;
+	}
+
+	.question_container {
+	  margin-bottom: 30px;
+}
+
+	.info__cards-summaryandnote__info{
+		max-width: 100%;
+	}
+
+	.info__cards-container {
+		justify-content: space-around;
+	}
+
+	.info__cards-content {
+  		column-gap: 77px;
+	}
+
+	.input__menu {
+  		column-gap: 30px;
+	}
+
+	.main__container_createproject {
+  		padding-left: 50px;
+  		padding-right: 50px;
+	}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+	/* ГЛАВНАЯ СТРАНИЦА */
+	.summary__menu-items{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		align-items: center;
+		column-gap: 30px;
+	}
+
+	.projectdb__summary-menu{
+		display: flex;
+		justify-content: space-around;
+		
+	}
+
+	.slide_main{
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		column-gap: 30px;
+		align-items: center;
+	}
+
+	.slide_main_row{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.slick-slide{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.view__item button{
+		padding-left: 13px;
+		padding-right: 13px;
+	}
+
+	.button-filter{
+		padding-left: 13px;
+		padding-right: 13px;
+	}
+
+	/* СТРАНИЦА ПРОЕКТА*/
+
+	.action__menu-items{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		row-gap: 30px;
+	}
+
+	.action__item:nth-child(3) button{
+		padding-right: 58px;
+	}
+
+	.action__item:nth-child(4) button{
+		padding-right: 54px;
+	}
+
+	.input__menu {
+  		grid-template-columns: 1fr;
+	}
+
+	.input-number__top {
+		top: 8px;
+		right: 18px;
+	}
+
+	.input-number__bottom {
+  		top: 20px;
+  		right: 18px;
+	}
+
+}
+	
+
+/* Мобильные Mobile 992px-768px */
+@media screen and (max-width: 992px) {
+	/* ГЛАВНАЯ СТРАНИЦА */
+	.slide_main {
+  		display: grid !important;
+  		flex-direction: column !important;
+  		justify-content: center !important;
+  		column-gap: 30px;
+	}
+
+	.view__menu-items{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.projectdb__buttons-view{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.view__menu-items{
+		display: flex;
+		
+	}
+
+	.view__item{
+		margin-top: 30px;
+		max-width: 168px;
+		width: 100%;
+	}
+
+	.view__item:nth-child(1) button{
+		padding-right: 42px;
+	}
+
+	.view__item:nth-child(4) button{
+		padding-right: 46px;
+	}
+
+	.projectdb__buttons-view{
+		margin-top: 0px;
+	}
+
+	.projectdb__buttons{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.view__item button {
+  		padding-top: 15px;
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-bottom: 15px;
+	}
+
+	.view__item {
+  		margin-right: 10px;
+	}
+
+	.view__item {
+  		margin-right: 0px;
+	}
+
+	.view__menu-items {
+		column-gap: 30px;
+	}
+
+	.view__menu-items{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.projectdb__buttons-filter{
+		display: flex;
+		justify-content: center;
+	}
+
+	.summary__item{
+		max-width: 400px;
+		width: 100%;
+	}
+
+	.summary__menu-items{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		column-gap: 30px;
+	}
+
+	
+}
+
+@media screen and (max-width: 810px) {
+	.action__item{
+		margin-right: 0px;
+	}
+
+	.action__menu-items {
+  		column-gap: 30px;
+	}
+
+	.project__item-buttons-container {
+  		justify-content: center;
+	}
+}
+
+
+/* Мобильные Mobile 568px-767px */
+@media screen and (max-width: 768px) {
+	/* ГЛАВНАЯ СТРАНИЦА */
+
+
+	/*header{
+		display: none;
+	}
+
+	.arrow_wrap{
+	left: 2px !important;
+	top: 27px;
+	}
+*/
+	.arrow_wrap {
+  		top: -2px;
+  		left: 6px;
+	}
+
+	.wrap_btn svg{
+		transform: rotate(90deg);
+	}
+
+	.wrap_btn_fix svg{
+		transform: rotate(-90deg);
+		
+	}
+
+
+
+	.header_h1{
+		margin-left: 20px;
+	}
+
+	.summary__item{
+		max-width: 400px;
+		width: 100%;
+	}
+
+	.summary__menu-items{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+		column-gap: 30px;
+	}
+
+	.view__item {
+  		margin-right: 0px;
+	}
+
+	.view__menu-items {
+		column-gap: 30px;
+	}
+
+	.view__menu-items{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.projectdb__buttons-filter{
+		display: flex;
+		justify-content: center;
+	}
+
+	.container-flex {
+  		max-width: 1920px;
+  		display: block;
+	}
+
+	.header {
+  		max-width: 100vw;
+  		width: 100vw;
+  		display: flex;
+		justify-content: center;
+	}
+
+	.logo img{
+		width: 100%;
+	}
+
+	.total__menu {
+		width: 100vw;
+	}
+
+	.admin__panel-administrator {
+		justify-content: flex-end;
+		margin-left: 0px;
+	}
+
+	.admin__panel-administrator {
+		margin-right: 26px;
+	}
+
+	.nav__menu-items {
+  		display: flex;
+  		flex-direction: column;
+  		justify-content: space-between;
+  		margin-top: 10px;
+	}
+
+	.info__cards-container {
+  		justify-content: space-between;
+	}
+
+	.project__item-buttons-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.action__menu-items{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.action__item{
+		margin-right: 0px;
+	}
+
+}
+
+/* Мобильные Mobile 480px-567px */
+@media screen and (max-width: 567px) {
+	/* ГЛАВНАЯ СТРАНИЦА */
+	.mainmenu__item {
+  		max-width: 402px;
+	}
+
+	.summary__item:nth-child(5) p:nth-child(1){
+		font-size: 0.7rem;
+	}
+
+	.summary__menu-items{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.mainmenu__item-timerange svg{
+		width: 342px;
+	}
+
+	.main__container{
+		/*width: calc(85%) !important;*/
+	}
+
+	.info__cards-hronologyandquestioncontent-container{
+		display: grid;
+		grid-template-columns: 1fr;
+
+	}
+
+	.slider {
+		width: 300px;
+		height: 198px;
+		overflow: hidden;
+		border-radius: 8px;
+	}
+
+	.slider_container {
+	  max-width: 300px;
+	  height: 198px;
+	  z-index: 1;
+	}
+
+	.slider_container img{
+		width: 300px;
+		max-height: 198px;
+	}
+
+	.slider_part{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.slider-nav{
+		display: none !important;
+	}
+
+	.slider .slick-arrow.slick-prev {
+  		left: 3px;
+  		top: 157px;
+	}
+
+	.slider .slick-arrow.slick-next {
+  		right: 3px;
+  		top: 167px;
+	}
+
+	.info__cards-content{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.resize_slider_btn button{
+		display: none;
+	}
+
+	.itemdiv__fix{
+		grid-template-columns: 1fr;
+	}
+
+}
+/* Мобильные Mobile 320px-479px */
+@media screen and (max-width: 480px) {
+	/* ГЛАВНАЯ СТРАНИЦА */
+	.header_h1 {
+  		
+	}
+
+	.projectdb__buttons-filter{
+		display: flex;
+		justify-content: center;
+	}
+
+	.view__menu-items {
+  		column-gap: 10px;
+	}
+
+	.view__item:nth-child(1) button {
+  		padding-left: 25px;
+		padding-right: 32px;
+	}
+
+	.view__item:nth-child(2) button {
+  		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.view__item:nth-child(3) button {
+  		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.view__item:nth-child(4) button {
+  		padding-left: 25px;
+		padding-right: 36px;
+	}
+
+	.mainmenu__item-container{
+		column-gap: 30px;
+	}
+
+	.mainmenu__item {
+  		max-width: 299px;
+	}
+
+	.mainmenu__item-timerange svg{
+		width: 240px;
+	}
+
+	
+
+	.slide_main{
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		column-gap: 30px;
+		align-items: center;
+	}
+
+	.slide_main_row{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.slick-slide{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.main__container_createproject {
+  		padding-left: 25px;
+  		padding-right: 25px;
+	}
+
+	.textarea__buttons{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.input__itemdiv__container{
+		grid-template-columns: 1fr;
+	}
+
+	.select__period {
+  		margin-top: 0px;
+	}
+
+}
